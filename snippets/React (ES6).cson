@@ -6,9 +6,7 @@
 
       export default class ${1:MyComponent} extends Component {
       	render() {
-      		return (
-				${2:<div>MyComponent</div>}
-			);
+      		return (${2:<div>MyComponent</div>});
       	}
       }
 
@@ -20,9 +18,7 @@
 
       export default class ${1:MyComponent} extends Component {
       	render() {
-      		return (
-				${2:<div>MyComponent</div>}
-			);
+      		return (${2:<div>MyComponent</div>});
 		}
       }
 
@@ -41,9 +37,7 @@
 		}
 
         render() {
-      		return (
-				${2:<div>MyComponent</div>}
-			);
+      		return (${2:<div>MyComponent</div>});
         }
       }
 
@@ -59,9 +53,7 @@
         }
 
         render() {
-      		return (
-				${2:<div>MyComponent</div>}
-			);
+      		return (${2:<div>MyComponent</div>});
         }
       }
 
@@ -84,9 +76,9 @@
       import React, { PropTypes } from 'react';
 
       export default function ${1}(props) {
-      	return (
+        return (
       		${2:<div>MyComponent</div>}
-      	);
+        );
       }
 
       ${1}.propTypes = {
