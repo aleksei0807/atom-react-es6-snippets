@@ -6,7 +6,9 @@
 
       export default class ${1:MyComponent} extends Component {
       	render() {
-      		return (${2:<div>MyComponent</div>});
+      		return (
+	  			${2:<div>MyComponent</div>}
+	  		);
       	}
       }
 
@@ -18,7 +20,9 @@
 
       export default class ${1:MyComponent} extends Component {
       	render() {
-      		return (${2:<div>MyComponent</div>});
+      		return (
+		  		${2:<div>MyComponent</div>}
+		  	);
 		}
       }
 
@@ -37,7 +41,9 @@
 		}
 
         render() {
-      		return (${2:<div>MyComponent</div>});
+      		return (
+		  		${2:<div>MyComponent</div>}
+		  	);
         }
       }
 
@@ -53,7 +59,9 @@
         }
 
         render() {
-      		return (${2:<div>MyComponent</div>});
+      		return (
+		  		${2:<div>MyComponent</div>}
+		  	);
         }
       }
 
