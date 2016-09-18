@@ -1,14 +1,15 @@
 {
-  "name": "react-es6-snippets",
-  "version": "0.3.0",
-  "description": "React ES6 snippets for atom",
+  "name": "react-es6-snippets-aleksei0807",
+  "version": "0.0.1",
+  "description": "React ES6 snippets for atom from aleksei0807",
   "keywords": [
     "react",
     "ES6",
     "babel",
-    "snippets"
+    "snippets",
+	"aleksei0807"
   ],
-  "repository": "https://github.com/netguru/atom-react-es6-snippets",
+  "repository": "https://github.com/aleksei0807/atom-react-es6-snippets-aleksei0807.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

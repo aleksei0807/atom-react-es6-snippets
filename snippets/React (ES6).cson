@@ -2,12 +2,24 @@
   'React ES6 Component':
     'prefix': 'rc'
     'body': """
+      import React, { Component } from 'react';
+
+      export default class ${1:MyComponent} extends Component {
+      	render() {
+        	return (${2:<div>MyComponent</div>});
+      	}
+      }
+
+    """
+  'React ES6 Component and PropTypes':
+    'prefix': 'rcp'
+    'body': """
       import React, { Component, PropTypes } from 'react';
 
       export default class ${1:MyComponent} extends Component {
-        render() {
-          return (${2:<div>MyComponent</div>});
-        }
+      	render() {
+        	return (${2:<div>MyComponent</div>});
+		}
       }
 
       ${1}.propTypes = {
@@ -17,15 +29,31 @@
   'React ES6 Component with Constructor':
     'prefix': 'rcc'
     'body': """
+      import React, { Component } from 'react';
+
+      export default class ${1:MyComponent} extends Component {
+      	constructor(props) {
+        	super(props);
+		}
+
+        render() {
+        	return (${2:<div>MyComponent</div>});
+        }
+      }
+
+    """
+  'React ES6 Component with Constructor and':
+    'prefix': 'rccp'
+    'body': """
       import React, { Component, PropTypes } from 'react';
 
       export default class ${1:MyComponent} extends Component {
-        constructor(props) {
-          super(props);
+    	constructor(props) {
+        	super(props);
         }
 
         render() {
-          return (${2:<div>MyComponent</div>});
+        	return (${2:<div>MyComponent</div>});
         }
       }
 
@@ -37,7 +65,7 @@
     'prefix': 'rconst'
     'body': """
       constructor(props) {
-        super(props);
+    	super(props);
         ${1}
       }
 
@@ -49,7 +77,7 @@
 
       export default function ${1}(props) {
         return (
-          ${2:<div>MyComponent</div>}
+        	${2:<div>MyComponent</div>}
         );
       }
 
